@@ -1,5 +1,5 @@
 # baku-docker
-Dockerization of a baku bloging server
+Dockerization of a [Baku](https://github.com/vladris/baku) blog generator by [Vlad Riscutia](https://github.com/vladris).
 
 ## Environment variables
 
@@ -18,9 +18,15 @@ Dockerization of a baku bloging server
 
 ## Usage
 
-### Build the image
+### Build the image or download one.
+
+* Build...
 
 `bash buildimage.sh`
+
+* ...or pull.
+
+`docker pull gnomon/baku-docker`
 
 ### Use the image
 
